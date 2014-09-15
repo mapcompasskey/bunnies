@@ -22,20 +22,20 @@
         #playhead {
             cursor: pointer;
             position: absolute;
-			left: 10px;
-			top: 10px;
-            width: 50px;
-            height: 50px;
+			top: 5px;
+            right: 5px;
+            width: 40px;
+            height: 40px;
             border: 1px solid #fff;
             background-repeat: no-repeat;
         }
         #playhead.paused {
-            background-position: -50px 0;
-            background-image: url('media/playhead-buttons.png');
+            background-position: -40px 0;
+            background-image: url('media/buttons/playhead-buttons.png');
         }
         #playhead.playing {
             background-position: 0 0;
-            background-image: url('media/playhead-buttons.png');
+            background-image: url('media/buttons/playhead-buttons.png');
         }
 	</style>
 
@@ -46,7 +46,7 @@
     
 	<script type="text/javascript">var fullscreen = false;</script>
 	<script type="text/javascript" src="lib/impact/impact.js?v=1.23"></script>
-	<script type="text/javascript" src="lib/game/main.js?v=5"></script>
+	<script type="text/javascript" src="lib/game/main.js?v=7"></script>
 </head>
 <body>
 	<canvas id="canvas"></canvas>
